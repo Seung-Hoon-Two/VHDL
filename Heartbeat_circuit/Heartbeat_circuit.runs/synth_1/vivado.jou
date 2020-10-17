@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 17 17:03:22 2020
+# Process ID: 34568
+# Current directory: C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.runs/synth_1
+# Command line: vivado.exe -log Heartbeat_circuit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Heartbeat_circuit.tcl
+# Log file: C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.runs/synth_1/Heartbeat_circuit.vds
+# Journal file: C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Heartbeat_circuit.tcl -notrace

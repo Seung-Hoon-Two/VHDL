@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct  9 21:06:20 2020
+# Process ID: 20396
+# Current directory: C:/Users/s.hoon/Desktop/HEX2SSD/HEX2SSD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20720 C:\Users\s.hoon\Desktop\HEX2SSD\HEX2SSD\HEX2SSD.xpr
+# Log file: C:/Users/s.hoon/Desktop/HEX2SSD/HEX2SSD/vivado.log
+# Journal file: C:/Users/s.hoon/Desktop/HEX2SSD/HEX2SSD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/s.hoon/Desktop/HEX2SSD/HEX2SSD/HEX2SSD.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/s.hoon/Desktop/HEX2SSD/HEX2SSD/HEX2SSD.runs/impl_1/HEX2SSD.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/s.hoon/Desktop/HEX2SSD/HEX2SSD/HEX2SSD.runs/impl_1/HEX2SSD.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]

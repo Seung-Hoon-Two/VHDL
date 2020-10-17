@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Oct 17 15:47:17 2020
+# Process ID: 36080
+# Current directory: C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15144 C:\Users\s.hoon\Desktop\Rotating_square_circuit\Rotating_square_circuit\Rotating_square_circuit.xpr
+# Log file: C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit/vivado.log
+# Journal file: C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit/Rotating_square_circuit.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/s.hoon/Desktop/Rotating_square_circoit/Rotating_square_circuit' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit/Rotating_square_circuit.srcs/sources_1', nor could it be found using path 'C:/Users/s.hoon/Desktop/Rotating_square_circoit/Rotating_square_circuit/Rotating_square_circuit.srcs/sources_1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+file mkdir C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit/Rotating_square_circuit.srcs/sources_1/new
+close [ open C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit/Rotating_square_circuit.srcs/sources_1/new/Rotating_squre_circuit.vhd w ]
+add_files C:/Users/s.hoon/Desktop/Rotating_square_circuit/Rotating_square_circuit/Rotating_square_circuit.srcs/sources_1/new/Rotating_squre_circuit.vhd
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 17 15:50:29 2020...

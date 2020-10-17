@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1602245246">
+  <File Type="BITSTR-BMM" Name="HEX2SSD_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="HEX2SSD_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="HEX2SSD_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="HEX2SSD_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="HEX2SSD.tcl"/>
+  <File Type="OPT-TIMING" Name="HEX2SSD_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="HEX2SSD_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="HEX2SSD_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="HEX2SSD_reports.tcl"/>
+  <File Type="OPT-DRC" Name="HEX2SSD_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="HEX2SSD.hwdef"/>
+  <File Type="PWROPT-DCP" Name="HEX2SSD_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="HEX2SSD_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="HEX2SSD_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="HEX2SSD_placed.dcp"/>
+  <File Type="PLACE-IO" Name="HEX2SSD_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="HEX2SSD_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="HEX2SSD_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="HEX2SSD_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="HEX2SSD_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="HEX2SSD_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="HEX2SSD_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="HEX2SSD_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="HEX2SSD_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="HEX2SSD.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="HEX2SSD_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="HEX2SSD_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="HEX2SSD_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="HEX2SSD.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="HEX2SSD_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="HEX2SSD_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="HEX2SSD_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="HEX2SSD_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="HEX2SSD_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="HEX2SSD_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="HEX2SSD_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="HEX2SSD.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="HEX2SSD_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="HEX2SSD_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="HEX2SSD_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="HEX2SSD_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="HEX2SSD_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="HEX2SSD_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="HEX2SSD_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="HEX2SSD_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="HEX2SSD_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="HEX2SSD_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="HEX2SSD_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="HEX2SSD_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="HEX2SSD_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="HEX2SSD_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="HEX2SSD_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="HEX2SSD_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="HEX2SSD_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="HEX2SSD_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="HEX2SSD_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="HEX2SSD_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="HEX2SSD_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="HEX2SSD.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="HEX2SSD_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="HEX2SSD.rbt"/>
+  <File Type="BITSTR-NKY" Name="HEX2SSD.nky"/>
+  <File Type="PDI-FILE" Name="HEX2SSD.pdi"/>
+  <File Type="RCFI_FILE" Name="HEX2SSD.rcfi"/>
+  <File Type="CFI_FILE" Name="HEX2SSD.cfi"/>
+  <File Type="RNPI_FILE" Name="HEX2SSD.rnpi"/>
+  <File Type="NPI_FILE" Name="HEX2SSD.npi"/>
+  <File Type="RBD_FILE" Name="HEX2SSD.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="HEX2SSD.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="HEX2SSD.sysdef"/>
+  <File Type="BG-BGN" Name="HEX2SSD.bgn"/>
+  <File Type="BG-DRC" Name="HEX2SSD.drc"/>
+  <File Type="RDI-RDI" Name="HEX2SSD.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/HEX2SSD.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="HEX2SSD"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Cmod-S7-25-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

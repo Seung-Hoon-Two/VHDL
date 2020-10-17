@@ -1,0 +1,7 @@
+Running: xsim.dir/HEX2SSD_behav/xsimk.exe -simmode gui -wdb HEX2SSD_behav.wdb -simrunnum 0 -socket 54074
+Design successfully loaded
+Design Loading Memory Usage: 6380 KB (Peak: 6380 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6908 KB (Peak: 6908 KB)
+Simulation CPU Usage: 31 ms

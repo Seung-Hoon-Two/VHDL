@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../HEX2SSD.srcs/sources_1/new/HEX2SSD.vhd" \
+"../../../../HEX2SSD.srcs/sim_1/new/hex2ssd_tb.vhd" \
+
+# Do not sort compile order
+nosort
