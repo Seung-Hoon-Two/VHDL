@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct 22 22:30:21 2020
+# Process ID: 8960
+# Current directory: C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14280 C:\Users\s.hoon\Google 드라이브\3학년\2학기\하드웨어\VHDL\Heartbeat_circuit\Heartbeat_circuit.xpr
+# Log file: C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/vivado.log
+# Journal file: C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Heartbeat_circuit.xpr}
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1

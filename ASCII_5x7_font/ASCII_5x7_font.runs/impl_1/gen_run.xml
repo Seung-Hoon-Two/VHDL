@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1603870129">
+  <File Type="BITSTR-BMM" Name="ASCII_5x7_font_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ASCII_5x7_font_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ASCII_5x7_font_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="ASCII_5x7_font_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ASCII_5x7_font.tcl"/>
+  <File Type="OPT-TIMING" Name="ASCII_5x7_font_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ASCII_5x7_font_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="ASCII_5x7_font_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ASCII_5x7_font_reports.tcl"/>
+  <File Type="OPT-DRC" Name="ASCII_5x7_font_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ASCII_5x7_font.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ASCII_5x7_font_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ASCII_5x7_font_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ASCII_5x7_font_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ASCII_5x7_font_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ASCII_5x7_font_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ASCII_5x7_font_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ASCII_5x7_font_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ASCII_5x7_font_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ASCII_5x7_font_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ASCII_5x7_font_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ASCII_5x7_font_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ASCII_5x7_font_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ASCII_5x7_font_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="ASCII_5x7_font.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ASCII_5x7_font_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ASCII_5x7_font_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ASCII_5x7_font_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="ASCII_5x7_font.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="ASCII_5x7_font_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ASCII_5x7_font_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ASCII_5x7_font_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ASCII_5x7_font_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ASCII_5x7_font_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ASCII_5x7_font_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ASCII_5x7_font_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="ASCII_5x7_font.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ASCII_5x7_font_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ASCII_5x7_font_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ASCII_5x7_font_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ASCII_5x7_font_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ASCII_5x7_font_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ASCII_5x7_font_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ASCII_5x7_font_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ASCII_5x7_font_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ASCII_5x7_font_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ASCII_5x7_font_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ASCII_5x7_font_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ASCII_5x7_font_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ASCII_5x7_font_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ASCII_5x7_font_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ASCII_5x7_font_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ASCII_5x7_font_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ASCII_5x7_font_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ASCII_5x7_font_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ASCII_5x7_font_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ASCII_5x7_font_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ASCII_5x7_font_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="ASCII_5x7_font.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ASCII_5x7_font_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="ASCII_5x7_font.rbt"/>
+  <File Type="BITSTR-NKY" Name="ASCII_5x7_font.nky"/>
+  <File Type="PDI-FILE" Name="ASCII_5x7_font.pdi"/>
+  <File Type="RCFI_FILE" Name="ASCII_5x7_font.rcfi"/>
+  <File Type="CFI_FILE" Name="ASCII_5x7_font.cfi"/>
+  <File Type="RNPI_FILE" Name="ASCII_5x7_font.rnpi"/>
+  <File Type="NPI_FILE" Name="ASCII_5x7_font.npi"/>
+  <File Type="RBD_FILE" Name="ASCII_5x7_font.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ASCII_5x7_font.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ASCII_5x7_font.sysdef"/>
+  <File Type="BG-BGN" Name="ASCII_5x7_font.bgn"/>
+  <File Type="BG-DRC" Name="ASCII_5x7_font.drc"/>
+  <File Type="RDI-RDI" Name="ASCII_5x7_font.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ASCII_5x7_font.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ASCII_5x7_font"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Cmod-S7-25-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

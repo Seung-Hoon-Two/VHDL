@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 28 01:54:29 2020
+# Process ID: 29616
+# Current directory: C:/Users/s.hoon/Desktop/dot_matrix/dot_matrix.runs/synth_1
+# Command line: vivado.exe -log dot_matrix.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dot_matrix.tcl
+# Log file: C:/Users/s.hoon/Desktop/dot_matrix/dot_matrix.runs/synth_1/dot_matrix.vds
+# Journal file: C:/Users/s.hoon/Desktop/dot_matrix/dot_matrix.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dot_matrix.tcl -notrace

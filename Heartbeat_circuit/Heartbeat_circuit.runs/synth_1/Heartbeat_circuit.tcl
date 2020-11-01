@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.runs/synth_1/Heartbeat_circuit.tcl"
+  variable script "C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Heartbeat_circuit.runs/synth_1/Heartbeat_circuit.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,23 +70,22 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 1
-set_param xicom.use_bs_reader 1
+set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s25csga225-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.cache/wt [current_project]
-set_property parent.project_path C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.xpr [current_project]
+set_property webtalk.parent_dir {C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Heartbeat_circuit.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Heartbeat_circuit.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo c:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.cache/ip [current_project]
+set_property ip_output_repo {c:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Heartbeat_circuit.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.srcs/sources_1/new/Heartbeat_circuit.vhd
+read_vhdl -library xil_defaultlib {{C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Heartbeat_circuit.srcs/sources_1/new/Heartbeat_circuit.vhd}}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -96,8 +95,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/s.hoon/Desktop/Heartbeat_circuit/Cmod-S7-25-Master.xdc
-set_property used_in_implementation false [get_files C:/Users/s.hoon/Desktop/Heartbeat_circuit/Cmod-S7-25-Master.xdc]
+read_xdc {{C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Cmod-S7-25-Master.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Cmod-S7-25-Master.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

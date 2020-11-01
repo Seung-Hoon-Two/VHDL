@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/s.hoon/Desktop/Heartbeat_circuit/Heartbeat_circuit.runs/synth_1'
+HD_PWD='C:/Users/s.hoon/Google 드라이브/3학년/2학기/하드웨어/VHDL/Heartbeat_circuit/Heartbeat_circuit.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
